@@ -9,9 +9,9 @@ router.get("/getAllCards", async (req, res) => {
   try {
     const result = await mapper.getAllGiftCards();
     // const result = [
-    //   {id : cardGen({issuer: 'Visa'}), issuer : 'surya', owner : 'Pranesh', balance : 100},
-    //   {id : cardGen({issuer: 'Visa'}), issuer : 'shantanu', owner : 'ail', balance : 10},
-    //   {id : cardGen({issuer: 'Visa'}), issuer : 'vishnu', owner : 'sankar', balance : 50},
+    //   {id : cardGen({issuer: 'Visa'}), issuer : 'surya', owner : 'Surya', balance : 100},
+    //   {id : cardGen({issuer: 'Visa'}), issuer : 'shantanu', owner : 'Shantanu', balance : 10},
+    //   {id : cardGen({issuer: 'Visa'}), issuer : 'vishnu', owner : 'Vishnu', balance : 50},
     // ]
     console.log("All gift cards :",result);
     res.json(result); 
