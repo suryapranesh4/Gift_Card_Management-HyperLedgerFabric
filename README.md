@@ -106,4 +106,19 @@ npm run server
 npm run client
 ```
 
+# APPLICATION SCREENSHOTS
+
+## Gift Cards
+![Cards](cards.png "Gift Card Management") <br/>
+
+## Purchase gift card
+![Purchase](purchase.png "Gift Card Management") <br/>
+
+## Transfer gift card
+![Transfer](transfer.png "Gift Card Management") <br/>
+
+## Redeem gift card
+![Redeem](redeem.png "Gift Card Management") <br/>
+
+
 
