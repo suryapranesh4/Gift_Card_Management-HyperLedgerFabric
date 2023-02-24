@@ -1,6 +1,6 @@
 'use strict';
 
-const GiftCard = require('./lib/giftcard');
+const giftCard = require('./lib/giftcard');
 
-module.exports.GiftCard = GiftCard;
-module.exports.contracts = [ GiftCard ];
+module.exports.GiftCard = giftCard;
+module.exports.contracts = [ giftCard ];
