@@ -49,7 +49,7 @@ Additionally, the barcodes should only be printed on the gift cards at the cash 
 
 # ARCHITECTURE
 
-![image](https://user-images.githubusercontent.com/114115259/221246184-caf64426-8259-4bf4-9b9a-0410381d983a.png)
+![Architecture](architecture.png "Gift Card Management Architecture") <br/>
 
 
 
