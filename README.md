@@ -68,26 +68,42 @@ Additionally, the barcodes should only be printed on the gift cards at the cash 
 
 
 ## TECH STACK
-- Programming languages: Javascript. 
+- Programming languages: Javascript - ReactJs frontend , NodeJs backend. 
 - Blockchain platform: Hyperledger Fabric.
 
 # HOW TO RUN PROJECT
-Install hyperledger in root folder
 
-Create Channel using test-network/network.sh
+```bash
 
-Install Chaincode on both organisations
+# Clone and install dependencies of hyperledger fabric-samples in root folder
+
+# Create a Channel using test-network/network.sh
+
+# Clone repository and install chaincode dependencies
+git clone https://github.com/suryapranesh4/Gift_Card_Management-HyperLedgerFabric.git
+cd Gift_Card_Management-HyperLedgerFabric
+npm install
+
+# Deploy GiftCard Chaincode on both organisations
 
 
-Adding peer config
+# Install dependencies for server
+npm install
+
+# Install dependencies for client
+npm run client-install
+
+# Run the client,server concurrently
+npm run dev
 
 
-Initialize chaincode to check if everything runs
+# Individual scripts to run local server :
 
+# To Run the Express server only
+npm run server
 
-Running backend
-
-
-Running front-end
+# To Run the React client only
+npm run client
+```
 
 
