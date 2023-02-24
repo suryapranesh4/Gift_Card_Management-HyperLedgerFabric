@@ -64,7 +64,8 @@ Additionally, the barcodes should only be printed on the gift cards at the cash 
 - transferGiftCard: This function is used to transfer the ownership of the gift card from one person to another. 
 - redeemGiftCard: This function is used to redeem the amount of the gift card by the consumer.
 
-## DIAGRAM (FLOW CHART)
+## SEQUENCE DIAGRAM
+![Sequence](sequence.png "Gift Card Management") <br/>
 
 
 ## TECH STACK
