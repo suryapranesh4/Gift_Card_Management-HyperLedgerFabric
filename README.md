@@ -1,7 +1,7 @@
 # Gift Card Management!
-In this project, we will use Hyperledger Fabric to create a system for generating gift cards with balances and keeping track of all the data related to them in a ledger. The ledger will be distributed and immutable, ensuring the security and transparency of the gift card transactions.
+Hyperledger Fabric system for generating gift cards with balances and keeping track of all the data related to them in a ledger. The ledger will be distributed and immutable, ensuring the security and transparency of the gift card transactions.
 
-### The project will have the following functionalities:
+### Functionalities:
 
 1. <ins>Show all cards</ins>: The system will allow retailers to view all the gift cards that have been created, along with their current balances and ownership information.
 
@@ -11,11 +11,6 @@ In this project, we will use Hyperledger Fabric to create a system for generatin
 
 4. <ins>Redeem total balance from a gift card</ins>: Gift card owners will be able to redeem the card's balance for goods or services. The system will update the ledger and delete the card from the system.
 
-## CONTRIBUTORS
-
-Surya Pranesh Krishnan - 101442686 <br/>
-Shantanu Ail - 101413427 <br/>
-Vishnu Sankar - 101440532 <br/>
 
 ## PROBLEM STATEMENT
 Developing a secure and transparent platform using Hyperledger Fabric to prevent gift card scams and ensure that consumers can purchase and use gift cards with confidence. Gift card scams have become a common issue, with scammers using various techniques such as the manipulation of the bar code on the back of the card to defraud consumers of their money. Due to their practicality and simplicity, gift cards are a well-liked option over the holidays. <br>
@@ -26,6 +21,8 @@ However, they are also vulnerable to fraud. The scammers take the cards home, ap
 The goal of this project is to develop a robust and reliable platform that prevents gift card scams and ensures the integrity of gift card transactions. The success of this project will be measured by its ability to reduce gift card fraud, increase consumer confidence in gift cards, and provide businesses with a secure and efficient platform for managing gift card transactions. <br>
 <br>
 Additionally, the barcodes should only be printed on the gift cards at the cash register once the payment has been made.
+
+
 ## STAKEHOLDERS
 
 - Consumers: The primary stakeholders are consumers who purchase and use gift cards.
